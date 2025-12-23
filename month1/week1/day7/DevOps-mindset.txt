@@ -1,0 +1,8 @@
+This is how DevOps thinks:
+
+Concept	                                            Meaning
+--------------------------------------------------------------------------------------------------------
+Version control	                                    Everything is tracked
+Reproducibility	                                    Same result everywhere
+Automation	                                        No manual steps
+Observability	                                    Logs + metrics
