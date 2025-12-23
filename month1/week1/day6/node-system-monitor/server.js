@@ -26,7 +26,7 @@ const server = http.createServer(async (req, res) => {
     if (req.url === '/') {
         res.end('Welcome');
     } else if (req.url === '/health') {
-        res.end('OK');
+        res.end(JSON.stringify({ status: "ok", uptime: process.uptime() }));
     } else if (req.url === '/status'){
         res.setHeader('Content-Type', 'application/json');
         res.end(JSON.stringify(getSystemInfo()));
