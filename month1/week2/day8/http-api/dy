@@ -1,0 +1,20 @@
+HTTP/1.1 500 Internal Server Error
+X-Powered-By: Express
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 1716
+Date: Wed, 24 Dec 2025 19:41:05 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>TypeError: Cannot destructure property &#39;name&#39; of &#39;req.body&#39; as it is undefined.<br> &nbsp; &nbsp;at file:///C:/Users/tassili/Documents/node-backend-devops-roadmap/month1/week2/day8/http-api/index.js:21:10<br> &nbsp; &nbsp;at Layer.handleRequest (C:\Users\tassili\Documents\node-backend-devops-roadmap\month1\week2\day8\http-api\node_modules\router\lib\layer.js:152:17)<br> &nbsp; &nbsp;at next (C:\Users\tassili\Documents\node-backend-devops-roadmap\month1\week2\day8\http-api\node_modules\router\lib\route.js:157:13)<br> &nbsp; &nbsp;at Route.dispatch (C:\Users\tassili\Documents\node-backend-devops-roadmap\month1\week2\day8\http-api\node_modules\router\lib\route.js:117:3)<br> &nbsp; &nbsp;at handle (C:\Users\tassili\Documents\node-backend-devops-roadmap\month1\week2\day8\http-api\node_modules\router\index.js:435:11)<br> &nbsp; &nbsp;at Layer.handleRequest (C:\Users\tassili\Documents\node-backend-devops-roadmap\month1\week2\day8\http-api\node_modules\router\lib\layer.js:152:17)<br> &nbsp; &nbsp;at C:\Users\tassili\Documents\node-backend-devops-roadmap\month1\week2\day8\http-api\node_modules\router\index.js:295:15<br> &nbsp; &nbsp;at processParams (C:\Users\tassili\Documents\node-backend-devops-roadmap\month1\week2\day8\http-api\node_modules\router\index.js:582:12)<br> &nbsp; &nbsp;at next (C:\Users\tassili\Documents\node-backend-devops-roadmap\month1\week2\day8\http-api\node_modules\router\index.js:291:5)<br> &nbsp; &nbsp;at read (C:\Users\tassili\Documents\node-backend-devops-roadmap\month1\week2\day8\http-api\node_modules\body-parser\lib\read.js:54:5)</pre>
+</body>
+</html>
